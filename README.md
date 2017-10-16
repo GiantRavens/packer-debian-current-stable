@@ -6,3 +6,8 @@ Note the handcoded MD5 and netinst ISO links.
 validate debian-current-stable-vagrant.json
 make
 ```
+
+Add the box like so:
+```shell
+vagrant box add debian-stable-base ./debian-current-stable-vagrant.box
+```
