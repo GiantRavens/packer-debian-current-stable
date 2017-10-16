@@ -41,7 +41,7 @@
   "post-processors": [
     {
     "type": "vagrant",
-    "output": "debian-testing-vagrant.box"
+    "output": "debian-current-stable-vagrant.box"
     }
   ]
 }
