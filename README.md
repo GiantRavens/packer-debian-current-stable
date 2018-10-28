@@ -1,4 +1,4 @@
-A quick and dirty JSON template to build the latest Debian Stretch 9.2.1
+A quick and dirty JSON template to build the latest Debian which is Stretch 9.5 now.
 
 Note the handcoded MD5 and netinst ISO links.
 
