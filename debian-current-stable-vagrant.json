@@ -6,8 +6,8 @@
     {
     "type" : "virtualbox-iso",
     "guest_os_type": "Debian_64",
-    "iso_url": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-9.5.0-amd64-netinst.iso",
-    "iso_checksum": "f8446a84356a6bcbf79201cc9f46063f",
+    "iso_url": "http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.0.0-amd64-netinst.iso",
+    "iso_checksum": "f31779fcca35f5ce9833a9661a9bd5bd",
     "iso_checksum_type": "md5",
     "ssh_username": "vagrant",
     "ssh_password": "vagrant",
