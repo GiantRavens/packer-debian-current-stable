@@ -1,4 +1,10 @@
-A quick and dirty JSON template to build the latest Debian which is Stretch 9.5 now.
+A quick and dirty JSON template to build the latest Debian
+
+Make sure that Packer is installed
+
+```shell
+brew install vagrant packer
+```
 
 Note the handcoded MD5 and netinst ISO links.
 
@@ -8,6 +14,7 @@ make
 ```
 
 Add the box like so:
+
 ```shell
-vagrant box add debian-stable-base ./debian-current-stable-vagrant.box
+vagrant box add debian-stable-base ./debian-current-stable-vagrant.box --name debian-buster
 ```
